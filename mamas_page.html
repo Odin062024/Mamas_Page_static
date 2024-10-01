@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona</title>
+    <style>
+        body {
+            background-image: url("/static/Images/background.jpg");
+            background-size: cover; /* Dopasowanie rozmiaru obrazu do strony */
+            background-position: center; /* Wyśrodkowanie tła */
+            height: 100vh; /* Cała wysokość okna przeglądarki */
+            margin: 0; /* Usunięcie marginesów */
+            font-family: Arial, sans-serif;
+            color: white; /* Biały tekst dla lepszej widoczności na tle */
+        }
+        .header {
+            display: flex;
+            align-items: center; /* Wyrównanie obrazka i nagłówka w pionie */
+            justify-content: center; /* Wyśrodkowanie całego kontenera */
+            margin: 20px;
+        }
+        .header img {
+            width: 250px; /* Ustalony rozmiar obrazka */
+            height: auto;
+            margin-right: 20px; /* Odstęp między obrazkiem a tytułem */
+        }
+        h1 {
+            color: #d3e417;
+            margin: 0; /* Usuń dodatkowe marginesy wokół nagłówka */
+            font-size: 3em;
+        }
+        p {
+            color: powderblue;
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        .legend {
+            color: white;
+            font-size: 1.2em;
+            text-align: justify;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Obrazek jako link do strony Wikipedii o orle -->
+    <div class="header">
+        <a href="https://pl.wikipedia.org/wiki/Geiranger" target="_blank">
+            <img src="static/Images/eagle_001.jpg" alt="Obrazek orła">
+        </a>
+        <h1>Geirangerfjorden</h1>
+    </div>
+    
+    <p></p>
+
+    <!-- Dodany akapit o norweskiej legendzie -->
+    <div class="legend">
+        <p>Legenda głosi, że dawno temu w Norwegii żyły trzy piękne siostry. Ich uroda i radość z życia przyciągały uwagę wielu młodzieńców, ale one były niezainteresowane miłością i małżeństwem. Wiodły spokojne życie nad brzegiem rzeki, której wody płynęły z gór. Jednak pewnego dnia, zazdrosny olbrzym, który zakochał się w jednej z nich, rzucił na siostry klątwę. Zanim zdołały uciec, klątwa zamieniła je w trzy majestatyczne wodospady, które do dziś spływają z norweskich gór. Te wodospady są znane jako 'Siedem Sióstr' i przypominają o pięknie i sile natury, której żadna magia nie może pokonać.</p>
+    </div>
+</body>
+</html>
